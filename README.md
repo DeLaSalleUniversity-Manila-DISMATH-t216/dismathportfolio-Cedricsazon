@@ -67,9 +67,9 @@ dismathportfolio-Cedricsazon created by Classroom for GitHub
     - First assume ¬p is true.
     - Then, show that ¬q is true.
     
-- Vacaous and Trivial Proof
-- For Vacuous Proof, p is false because p→q must be true when p is false.
-- For Trivial Proof, q is true, it follows that p→q must also be true.
+- Vacaous and Trivial Proof:
+    - For Vacuous Proof, p is false because p→q must be true when p is false.
+    - For Trivial Proof, q is true, it follows that p→q must also be true.
 
 #Week 4
 - Proof by Equivalence:
