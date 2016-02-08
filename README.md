@@ -49,7 +49,7 @@ dismathportfolio-Cedricsazon created by Classroom for GitHub
 - However, the fun part was an assignment proving that Superman does not exist (logically)
 
 #Week 3
-4 methods of Proof:
+- 4 methods of Proof:
     - Direct Proof
     - Proof by Contraposition (Indirect)
     - Proof by Contradiction (Indirect)
@@ -67,13 +67,14 @@ dismathportfolio-Cedricsazon created by Classroom for GitHub
     - First assume ¬p is true.
     - Then, show that ¬q is true.
     
-- We also talked about the Vacaous and Trivial Proof.
-- For Vacuous Proof, we show that p is false, because p→q must be true when p is false.
-- For Trivial Proof, we show that q is true, it follows that p→q must also be true.
+- Vacaous and Trivial Proof
+- For Vacuous Proof, p is false because p→q must be true when p is false.
+- For Trivial Proof, q is true, it follows that p→q must also be true.
 
 #Week 4
 - Proof by Equivalence:
     - p→q and q→p are both true.
+
 - Mathematical Induction:
     - Basis Step
     - Inductive Step
