@@ -2,7 +2,7 @@
 
 dismathportfolio-Cedricsazon created by Classroom for GitHub
 
-#Week1 
+#Week 1 
 - I thought it would just be an ordinary orientation day of the course but before dismissal the class was presented with two questions about Knight and Knaves which gave our mind a fun challenge of our logic.
 - After the orientation, I was pretty sure that this course is going to be challenging
 - I also realized that you really have to use you head and you have to think alot in this subject.
@@ -47,3 +47,33 @@ dismathportfolio-Cedricsazon created by Classroom for GitHub
 - Implication Equivalence: p→q = ¬p∨q
 - At the end of the week, I observed that after every class I feel mentally exhausted
 - However, the fun part was an assignment proving that Superman does not exist (logically)
+
+#Week 3
+4 methods of Proof:
+    - Direct Proof
+    - Proof by Contraposition (Indirect)
+    - Proof by Contradiction (Indirect)
+    - Proof by Equivalence 
+
+- Direct Proof:
+    - First, we assume P is true.
+    - Then, we show that q is also true.
+    
+- Proof by Contraposition:
+    - First, we assume ¬q is true.
+    - Then, we show that ¬p is true.
+    
+- Proof by Contradiction:
+    - First assume ¬p is true.
+    - Then, show that ¬q is true.
+    
+- We also talked about the Vacaous and Trivial Proof.
+- For Vacuous Proof, we show that p is false, because p→q must be true when p is false.
+- For Trivial Proof, we show that q is true, it follows that p→q must also be true.
+
+#Week 4
+- Proof by Equivalence:
+    - p→q and q→p are both true.
+- Mathematical Induction:
+    - Basis Step
+    - Inductive Step
