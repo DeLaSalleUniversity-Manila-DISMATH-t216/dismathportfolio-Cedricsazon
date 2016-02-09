@@ -78,3 +78,5 @@ dismathportfolio-Cedricsazon created by Classroom for GitHub
 - Mathematical Induction:
     - Basis Step
     - Inductive Step
+
+Cedric Paul M. Sazon DISMATH EL
