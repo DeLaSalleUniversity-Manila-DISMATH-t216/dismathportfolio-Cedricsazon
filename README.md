@@ -13,6 +13,7 @@
 - In order to understand Discrete Math, I had to study the Logical Connectives which was very new to me 
 
 ➤ **Logical Connectives**
+
     - Negation (¬, not)
     - Conjunction (∧, and)
     - Disjunction (∨, or)
@@ -27,9 +28,9 @@
 | T | F | F | T | T | F | F |
 | T | T | T | T | F | T | T |
 
- ➤ **Propositional Logic:** (p → q)
-  
-    ∙ is the area of logic dealing with propositions.
+ ➤ **Propositional Logic:** 
+ 
+     (p → q)
   
        ✓ Inverse: ¬p → ¬q
   
@@ -39,7 +40,9 @@
     
 -  And then, the all powerful Truth Table, lists the possible combinations of the input with their corresponding output
 
- ➤ **Logical Equivalences** are the rules that can help in simplifying a given proposition
+ ➤ **Logical Equivalences** 
+ 
+ are the rules that can help in simplifying a given proposition
   
     ∙ Identity Law
         ✓ p ∧ T ≡ p
