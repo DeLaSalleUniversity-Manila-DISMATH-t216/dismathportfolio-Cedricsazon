@@ -12,6 +12,7 @@ dismathportfolio-Cedricsazon created by Classroom for GitHub
 - A proposition is a statement that is either true(1) or false(0)
 - Logical deduction is a process of reasoning from one ore more statements (premises) to reach a logically certain conclusion
 - In order to understand Discrete Math, I had to study the Logical Connectives which was very new to me 
+
 - Logical Connectives
     - Negation (¬, not)
     - Conjunction (∧, and)
@@ -19,10 +20,16 @@ dismathportfolio-Cedricsazon created by Classroom for GitHub
     - Exclusive Or (⊕, xor)
     - Conditional (→, if,then)
     - Biconditional (↔, iff)
+    
 -  And then, the all powerful Truth Table, lists the possible combinations of the input with their corresponding output
--  Logical Equivalences was also discussed 
+-  Logical Equivalences
     - Identity Law
+    -  ✓ p ∧ T ≡ p
+        
+        ✓ p ∧ F ≡ p
+    
     - Domination Law
+    - 
     - Negation Law
     - Double Negation Law
     - Idempotent Law
@@ -72,10 +79,33 @@ dismathportfolio-Cedricsazon created by Classroom for GitHub
     - For Trivial Proof, q is true, it follows that p→q must also be true.
 
 #WEEK 4
-- Proof by Equivalence:
-    - p→q and q→p are both true.
+➤ **Proof by Equivalence**
 
-- Mathematical Induction:
+    - p→q and q→p are both true.
+    
+➤ **Recursive/Inductive**
+  
+      - An algorithm that solves a problem by reducing it to a simpler input.
+      
+      Steps:
+      
+      1.) Basic Step
+       
+          - Specify the value of a given as a function a "0" 
+      
+      2.) Recursive Step
+      
+          - Create a rule in finding its value at a certain integer from its values at smaller integers.
+➤ **Summation**
+  
+      - Symbol: ∑
+      
+      - Is the addition of a sequence of numbers; the result is called the sum or the total. 
+
+➤ **Mathematical Induction**
+    - A means of proving a theorem by showing that if it is true of any particular case, it is true of the 
+      
+      next case in series, and then showing that it is indeed true in one particular case. 
     - Basis Step
     - Inductive Step
 
