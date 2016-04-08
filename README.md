@@ -503,6 +503,135 @@
 
     - formula: r = e(edges) - v(vertices) + 2
 
-#WEEK 14
+#WEEK 13 pt.2 
 
-➤ **Tree**
+➤ **Graph Coloring**
+
+    - is the assignment of colors to each node in a graph considering the adajaceny relationship between them.
+    
+    • Chromatic Number
+    
+       - is the least number of colors needed in coloring a graph
+       
+     • Four color Theorem
+     
+       - states that the chomatic number of a planar graph should not be grater than 4
+
+➤ **Trees**
+
+     - is simply an undirected graph
+     
+     - it has no circuit in it
+  
+     • Rooted tree
+     
+        - is a tree by which a node is assigned as the root and has edges that is directed away from it
+        
+    • Subtree
+       
+       - is a branch-like part of the main tree 
+
+➤ **Language and Grammar**
+
+     - Grammar generates words and identifies whether a word is from a certain language.
+     
+     - Java C language is not that vital in the formal language. 
+
+➤ **SYNTAX** 
+
+     - is the form of a formal language. A derivation tree may be used to check validity of the grammar.
+
+➤ **Automata theory** 
+
+     - studies the laws of computation.
+
+     • Finite Automation** 
+        
+        - is the  simplest model of computing device, based on the concept of states.
+        
+        - initial state
+          final state
+          dead/stuck state
+          transition state
+        
+     • Lexical analysis** 
+     
+        - is the process where the stream of characters making up the source program is read from left to right and grouped into   tokens.
+
+➤ **Finite State Machine**
+
+      - M = {S, I, O, f, g, s(0)} with S-states
+      
+        SYMBOLS:
+          I-input 
+          O-output 
+          f-function 
+          g-function output  
+          s(0)-initial state.
+          
+#ADDITIONAL READINGS
+
+➤ Tree 
+
+   • Tree Traversal 
+
+    - is to visit every vertex of an ordered rooted tree.
+
+   • Spanning tree
+
+    - subgraph of simple graph G that is a tree containing every vertex of G.
+    
+       ✓ Minimum spanning tree 
+      
+         - spanning tree that has the smallest possible sum of weights of its edges.
+         
+➤ Relations 
+  
+    - relationship of elements between two sets.
+    
+      ✓ Binary relation 
+         
+         - realation is from set A to set B and is a subset of A x B.
+      
+      ✓ Reflexive relation 
+      
+         - if (a,a) is an element of R (relation) for every element a in set A.
+      
+      ✓ Symmetric relation 
+      
+         - if (b,a) is an element of R whenever (a,b) is an element of R, for all a,b in set A; 
+        antisymmetric - if a = b.
+        
+      ✓ Transitive relation
+      
+         - whenever (a,b) and (b,c) are elements of R, then (a.c) is an element of R; a,b,c are in set A.
+      
+      ✓ Equivalence relation 
+        
+         - a relation that is reflexive, symmetric and transitive.
+      
+         • Equivalencee class (a) 
+        
+           - set of all elements that are related to an element a of A.
+        
+      ✓ n-ary relation 
+      
+          - is the relationship of elements from two or more sets; A1 x A2 x An, where A-domains and n-degree.
+      
+➤ Composite (S o R) 
+
+       - (a,b) and (b,c) such that (a,c), from sets A, B, C.
+
+➤ Partial ordering 
+
+       - is a reflective, antisymmetric and transitive relation on a set S
+  
+            ✓ poset - partially ordered set.
+
+➤ Lexicographic order 
+
+    - based in the ordering of the letters in the alphabet
+
+➤ Lattices 
+
+    - a partially unordered set in which every pair of elements has both a least upper bound and a greatest lower bound.
