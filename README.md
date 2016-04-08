@@ -1,6 +1,5 @@
 # dismathportfolio-Cedric Paul M. Sazon DISMATH EL
 
-dismathportfolio-Cedricsazon created by Classroom for GitHub
 
 #WEEK 1 
 - I thought it would just be an ordinary orientation day of the course but before dismissal the class was presented with two questions about Knight and Knaves which gave our mind a fun challenge of our logic.
@@ -13,7 +12,7 @@ dismathportfolio-Cedricsazon created by Classroom for GitHub
 - Logical deduction is a process of reasoning from one ore more statements (premises) to reach a logically certain conclusion
 - In order to understand Discrete Math, I had to study the Logical Connectives which was very new to me 
 
-- Logical Connectives
+➤ **Logical Connectives**
     - Negation (¬, not)
     - Conjunction (∧, and)
     - Disjunction (∨, or)
@@ -21,60 +20,123 @@ dismathportfolio-Cedricsazon created by Classroom for GitHub
     - Conditional (→, if,then)
     - Biconditional (↔, iff)
     
+    | p | q | p ∧ q | p v q | p ⊕ q | p → q | p ↔ q |
+| :-----: | :-----: | :-----: |:-------:|:-----:| :-------: | :-------:|
+| F | F | F | F | F | T | T |
+| F | T | F | T | T | T | F |
+| T | F | F | T | T | F | F |
+| T | T | T | T | F | T | T |
+
+ ➤ **Propositional Logic:** (p → q)
+  
+    ∙ is the area of logic dealing with propositions.
+  
+       ✓ Inverse: ¬p → ¬q
+  
+       ✓ Converse: q → p
+  
+       ✓ Contraposition: ¬q → ¬p 
+    
 -  And then, the all powerful Truth Table, lists the possible combinations of the input with their corresponding output
--  Logical Equivalences
-    - Identity Law
-    -  ✓ p ∧ T ≡ p
+
+ ➤ **Logical Equivalences** are the rules that can help in simplifying a given proposition
+  
+    ∙ Identity Law
+        ✓ p ∧ T ≡ p
         
         ✓ p ∧ F ≡ p
     
-    - Domination Law
-    - 
-    - Negation Law
-    - Double Negation Law
-    - Idempotent Law
-    - Commutative Law
-    - Associative Law
-    - Distributive Law
-    - De Morgan's Law
-    - Absorption Law
- - Rules of Inference (terminologies)
-    - argument is a sequence of statements that end with a question
-    - valid is the conclusion or final statment of the argument, must follow from the truth of the preceding statements, or premises, of the argument
-    - fallacy is common form of incorrect reasoning which lead to invalud arguments
-    - tautology is a statement that is always true
-    * Modus Ponens
-    * Modus Tollens
-    * Hypothetical syllogism
-    * Disjunctive syllogism
-    * Addition
-    * Simplification
-    * Conjuction
-    * Resolution
-- Implication Equivalence: p→q = ¬p∨q
+    ∙ Domination Law
+    
+        ✓ p v T ≡ T  
+        
+        ✓ p ∧ F ≡ F 
+        
+    ∙ Idempotent Law
+    
+        ✓ p v p ≡ p 
+        
+        ✓ p ∧ p ≡ p 
+    
+    ∙ Double Negation Law
+        
+        ✓ ¬(¬p)≡ p 
+        
+        
+    ∙ Commutative Law
+    
+        ✓ p v q ≡ q v p
+        
+        ✓ p ∧ q ≡ q ∧ p 
+    
+    ∙ Associative Law
+        
+        ✓ (p v q) v r ≡ p v (q v r) 
+        
+        ✓ (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)
+        
+    ∙ Distributive Law
+        
+        ✓ p v (q v r) ≡ (p v q) v (p v r)
+        
+        ✓ p ∧ (q ∧ r) ≡ (p ∧ q) ∧ (p ∧ r) 
+        
+    ∙ De Morgan's Law
+        
+        ✓ ¬(p ∧ q) ≡ ¬p ∧ ¬q
+        
+        ✓ ¬(p v q) ≡ ¬p v ¬q 
+        
+    ∙ Absorption Law
+        
+        ✓ p v (p ∧ q) ≡ p 
+        
+        ✓ p ∧ (p v q)≡ p 
+        
+    ∙ Negation Law
+        
+        ✓ p v ¬p ≡ T
+        
+        ✓ p ∧ ¬p ≡ F 
+
+ ➤ **Rules of Inference (terminologies)**
+    - Argument is a sequence of statements that end with a question
+    - Valid is the conclusion or final statment of the argument, must follow from the truth of the preceding statements, or premises, of the argument
+    - Fallacy is common form of incorrect reasoning which lead to invalud arguments
+    - Tautology is a statement that is always true
+    |          Name              |            Equivalent          |
+|:--------------------------:|:------------------------------:|
+|       Modus ponens         |            p, p→q ∴q           |
+|     Modus tollens          |           ¬q, p→q ∴ ¬p         |
+|     Hypothetical syllogism |       p → q, q → r ∴p → r      |
+|      Disjunctive syllogism |           p ∨ q, ¬p ∴q         |
+|       Addition             |            p ∴p ∨ q            |
+|      Simplication          |            p ∧ q ∴p            |
+|      Conjunction           |          p, q ∴p ∧ q           |
+|        Resolution          |       p ∨ q, ¬p ∨ r ∴q ∨ r     |
+
+➤ **Implication Equivalence **
+      - p→q = ¬p∨q
+      
 - At the end of the week, I observed that after every class I feel mentally exhausted
 - However, the fun part was an assignment proving that Superman does not exist (logically)
 
 #WEEK 3
-- 4 methods of Proof:
-    - Direct Proof
-    - Proof by Contraposition (Indirect)
-    - Proof by Contradiction (Indirect)
-    - Proof by Equivalence 
-
-- Direct Proof:
+➤ **4 methods of Proof:**
+ 
+    ∙ Direct Proof:
     - First, we assume P is true.
     - Then, we show that q is also true.
     
-- Proof by Contraposition:
+    ∙ Proof by Contraposition:
     - First, we assume ¬q is true.
     - Then, we show that ¬p is true.
     
-- Proof by Contradiction:
+    ∙ Proof by Contradiction:
     - First assume ¬p is true.
     - Then, show that ¬q is true.
     
-- Vacaous and Trivial Proof:
+    ∙ Vacaous and Trivial Proof:
     - For Vacuous Proof, p is false because p→q must be true when p is false.
     - For Trivial Proof, q is true, it follows that p→q must also be true.
 
