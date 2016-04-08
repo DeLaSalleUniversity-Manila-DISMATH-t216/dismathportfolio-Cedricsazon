@@ -34,9 +34,7 @@
     
 -  And then, the all powerful Truth Table, lists the possible combinations of the input with their corresponding output
 
- ➤ **Logical Equivalences** 
- 
-    -are the rules that can help in simplifying a given proposition
+ ➤ **Logical Equivalences**
   
     ∙ Identity Law
     
@@ -114,7 +112,8 @@
 |        Resolution          |       p ∨ q, ¬p ∨ r ∴q ∨ r     |
 
 ➤ **Implication Equivalence **
-      - p→q = ¬p∨q
+      
+      ∙ p→q = ¬p∨q
       
 - At the end of the week, I observed that after every class I feel mentally exhausted
 - However, the fun part was an assignment proving that Superman does not exist (logically)
