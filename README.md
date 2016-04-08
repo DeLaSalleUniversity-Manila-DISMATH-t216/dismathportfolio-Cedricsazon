@@ -21,12 +21,6 @@
     - Conditional (→, if,then)
     - Biconditional (↔, iff)
     
-    | p | q | p ∧ q | p v q | p ⊕ q | p → q | p ↔ q |
-| :-----: | :-----: | :-----: |:-------:|:-----:| :-------: | :-------:|
-| F | F | F | F | F | T | T |
-| F | T | F | T | T | T | F |
-| T | F | F | T | T | F | F |
-| T | T | T | T | F | T | T |
 
  ➤ **Propositional Logic:** 
  
@@ -42,9 +36,10 @@
 
  ➤ **Logical Equivalences** 
  
- are the rules that can help in simplifying a given proposition
+    -are the rules that can help in simplifying a given proposition
   
     ∙ Identity Law
+    
         ✓ p ∧ T ≡ p
         
         ✓ p ∧ F ≡ p
