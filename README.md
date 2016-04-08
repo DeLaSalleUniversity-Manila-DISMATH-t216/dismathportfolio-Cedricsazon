@@ -556,7 +556,7 @@
         
      • Lexical analysis** 
      
-        - is the process where the stream of characters making up the source program is read from left to right and grouped into   tokens.
+      - is the process where the stream of characters making up the source program is read from left to right and grouped into tokens.
 
 ➤ **Finite State Machine**
 
